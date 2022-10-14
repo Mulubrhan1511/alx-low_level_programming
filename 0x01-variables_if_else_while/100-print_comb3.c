@@ -20,8 +20,11 @@ int main(void)
 	putchar(',');
 	putchar(' ');
 	}
+
 	m++;
 	}
+	putchar(',');                                                         
+	putchar(' '); 
 	}
 	putchar('\n');
 	return (0);
