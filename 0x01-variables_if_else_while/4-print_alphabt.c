@@ -16,9 +16,16 @@ int main(void)
 {
 	char a;
 
-	for (a = 'a'; (a <= 'z') && (a != 'q' && (a != 'e')); a++)
+	for (a = 'a'; a <= 'z'; a++)
+	{
+	if (a != 'q' && (a != 'e'))
 	{
 	putchar(a);
+	}
+	else
+	{
+	continue;
+	}
 	}
 	putchar('\n');
 	return (0);
