@@ -27,7 +27,7 @@ int main(void)
 	putchar(k);
 	putchar(l);
 	
-	if (i == 57 && j == 57 && k == 57 && l == 57)
+	if (i == 57 && j == 57 && k == 56 && l == 57)
 	{
 	break;
 	}
