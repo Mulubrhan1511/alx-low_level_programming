@@ -8,11 +8,12 @@ int main(void)
 {
 	int i;
 	int j;
-	int m;
-
+	int m = 0;
+	int n = 1;
+	
 	for (i = 48; i <= 57; i++)
 	{
-	for (j = 49; j <= 57 ; j++)
+	for (j = n; j <= 9 ; j++)
 	{
 	putchar(i);
 	putchar(j);
@@ -21,9 +22,9 @@ int main(void)
 	putchar(',');
 	putchar(' ');
 	}
-
 	m++;
-	}	
+	}
+	n++;	
 	}
 	putchar('\n');
 	return (0);
