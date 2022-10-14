@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int i,j;
+	int i, j, k, l;
 
 	for (i = 48; i < 58; i++)
 	{
@@ -21,7 +21,7 @@ int main(void)
 	putchar(' ');
 	putchar(k);
 	putchar(l);
-	if (i == 54 && j == 55 && k == 56 && l == 57)
+	if (i == 57 && j == 57 && k == 57 && l == 57)
 	{
 	break;
 	}
