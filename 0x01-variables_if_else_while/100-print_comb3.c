@@ -9,17 +9,18 @@ int main(void)
 	int i;
 	int j;
 	
-	for (i = 10; i <= 19; i++)
+	for (i = 48; i < 58; i++)
 	{
-	for (j = 10; j <= 19; j++)
+	for (j = (i + 1); j < 58; j++)
 	{
-	putchar((i % 10) + '0');
-	putchar((j % 10) + '0');
-	if (i != 19 || j != 19)
+	putchar(i);
+	putchar(j);
+	if (i == 57 && j == 57)
 	{
+	break;
+	}
 	putchar(',');
 	putchar(' ');
-	}
 	}
 	}
 	putchar('\n');
