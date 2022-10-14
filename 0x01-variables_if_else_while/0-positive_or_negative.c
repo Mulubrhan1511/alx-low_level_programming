@@ -1,11 +1,15 @@
 #include<stdio.h>
-\**
- *main
+#include<time.h>
+#include<stdio.h>
+/**
+ *main - Determines if a number is positive, negative or zero.
  *
- * if else statement
- * /
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
+	int n;
+
 	if(n>0)
 	{
 		printf(n,"is positive\n");
