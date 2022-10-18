@@ -11,7 +11,7 @@ int main(void)
 	for (m = 1; m < 1024; m++)
 	{
 	if ((m % 3) == 0 || (m % 5) == 0)
-	b = b + a;
+	h = h + m;
 	}
 	printf("%d\n", b);
 	return (0);
