@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- *main - Prints the addtion of the Fibonacci numbers
+ *main - Prints the add of the Fibonacci numbers
  *
  *Return: Always 0.
  */
 int main(void)
 {
 	long int l, m, fib, n;
-	
+		
 	l = 1;
 	m = 2;
 	printf("%ld, %ld", l, m);
