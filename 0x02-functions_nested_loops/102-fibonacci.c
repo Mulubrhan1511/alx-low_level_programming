@@ -6,8 +6,7 @@
  */
 int main(void)
 {
-	int n;
-	long int l, m, fib;
+	long int l, m, fib, n;
 	
 	l = 1;
 	m = 2;
