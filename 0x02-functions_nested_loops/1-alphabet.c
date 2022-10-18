@@ -1,15 +1,17 @@
 #include "main.h"
 /**
- *main - Prints Holberton as a message.
+ *main - Prints alphabets as a message.
  *
  *Return: Always 0 (Success)
  **/
 void print_alphabet(void)
 {
 	int i;
+
 	for (i = 97; i <= 122; i++)
 	{
 	_putchar(i);
+
 	}
 	_putchar('\n');  
 }
