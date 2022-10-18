@@ -2,7 +2,7 @@
 /**
  *_islower - check lower case.
  *
- * parameter or member c if c is lower case it say c is lower case
+ * parameter - c if c is lower case it say c is lower case
  *Return: Always 0 (Success)
  */
 int _islower(int c)
