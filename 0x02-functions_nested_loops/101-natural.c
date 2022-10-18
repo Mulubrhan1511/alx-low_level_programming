@@ -13,6 +13,6 @@ int main(void)
 	if ((m % 3) == 0 || (m % 5) == 0)
 	h = h + m;
 	}
-	printf("%d\n", b);
+	printf("%d\n", h);
 	return (0);
 }
