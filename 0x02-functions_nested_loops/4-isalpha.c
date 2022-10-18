@@ -1,5 +1,5 @@
 /**
- *_isalpha - Shows 1 if the input is a
+ *_isalpha - Shows 1 if the input is c
  *
  *@c: The character in ASCII code
  * Return:
