@@ -10,21 +10,21 @@ void print_times_table(int n)
 	int m, h, pro;
 	if (n >= 0 && n <= 15)
 	{
-	for (a = 0; a <= n; a++)
+	for (m = 0; m <= n; m++)
 	{
 	_putchar(48);
-	for (b = 1; b <= n; b++)
+	for (h = 1; h <= n; h++)
 	{
-	op = a * b;
+	pro = m * h;
 	_putchar(44);
 	_putchar(32);
-	if (op <= 9)
+	if (pro <= 9)
 	{
 	_putchar(32);
 	_putchar(32);
 	_putchar(op + 48);
 	}
-	else if (op <= 99)
+	else if (pro <= 99)
 	{
 	_putchar(32);
 	_putchar((op / 10) + 48);
