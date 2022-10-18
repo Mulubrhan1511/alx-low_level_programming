@@ -1,17 +1,19 @@
 #include "main.h"
 /**
- *jack_bauer - Prints the minutes of a day
+ *times_table - time table
  *
  *Return: no return
  */
 void times_table(void)
 {
 	int i, j;
+
 	for (i = 0; i < 10; i++)
 	{
 	for (j = 0; j < 10; j++)
 	{
 	int prod = j * i;
+
 	if (j == 0)
 	{
 	_putchar('0');
