@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	long int l, m, fib, n;
-		
+	int m, l, n, fib;
+	
 	l = 1;
 	m = 2;
 	printf("%ld, %ld", l, m);
