@@ -6,10 +6,10 @@
  */
 void times_table(void)
 {
-	int n, m;
-	for (n = 0; n < 10; n++)
+	int i, j;
+	for (i = 0; i < 10; i++)
 	{
-	for (m = 0; m < 10; m++)
+	for (j = 0; j < 10; j++)
 	{
 	int prod = j * i;
 	if (j == 0)
