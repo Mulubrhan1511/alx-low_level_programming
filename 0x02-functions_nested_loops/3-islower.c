@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *print_alphabet - Prints the alphabet in lowercase.
+ *_islower - check lower case.
  *
+ * parameter or member c if c is lower case it say c is lower case
  *Return: Always 0 (Success)
  */
 int _islower(int c)
