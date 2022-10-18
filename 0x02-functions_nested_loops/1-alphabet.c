@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *main - Prints alphabets as a message.
+ *main - Prints alphabets as a message. print_alphabet
  *
  *Return: Always 0 (Success)
  **/
