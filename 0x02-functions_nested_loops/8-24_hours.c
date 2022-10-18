@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *jack_bauer - Prints time 0
+ *jack_bauer - Prints time :wq!
  *
  *
  *Return: time.
