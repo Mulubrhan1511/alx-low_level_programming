@@ -6,8 +6,11 @@
  */
 int main(void)
 {
-	long int m, l, n, fib;
-	
+	long int m;
+	long int l;
+	long int n;
+	long int fib;
+
 	l = 1;
 	m = 2;
 	printf("%ld, %ld", l, m);
