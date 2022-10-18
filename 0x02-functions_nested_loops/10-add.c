@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *add - times table function
- *
- * Return addtion of the two
+ *add - adding it up
+ *@a: first integer
+ *@b: second integer
+ *Return: sum of both integers
  */
 int add(int a, int b)
 {
