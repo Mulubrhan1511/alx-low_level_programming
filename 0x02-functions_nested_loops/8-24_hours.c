@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *jack_bauer - Prints the last digit
+ *jack_bauer - Prints time
  *
  *
- *Return: last digit.
+ *Return: time.
  **/
 void jack_bauer(void)
 {
