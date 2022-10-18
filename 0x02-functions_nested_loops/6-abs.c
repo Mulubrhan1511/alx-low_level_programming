@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  *_abs - Prints the alphabet in lowercase.
+ *@n : given number
  *
  *Return: Always 0 (Success)
  **/
