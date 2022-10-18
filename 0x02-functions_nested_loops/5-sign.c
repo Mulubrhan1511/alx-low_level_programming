@@ -2,7 +2,7 @@
 /**
  *print_sign - Shows 1 if the input is a
  *
- *@c: The character in ASCII code
+ *@n: the chracter is dinoted
  *Return: 1 for lowercase character. 0 for the rest.
  */
 int print_sign(int n)
