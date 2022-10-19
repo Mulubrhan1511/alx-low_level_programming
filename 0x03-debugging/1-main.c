@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  *main - causes an infinite loop
  *i++
  *Return: 0
  */
+
 int main(void)
 {
 	int i;
