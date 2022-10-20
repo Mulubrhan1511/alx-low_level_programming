@@ -4,6 +4,7 @@
  *main - Fizz buzz.
  *Return: 1 if is an uppercase character, 0 in other case.
  */
+
 int main(void)
 {
 	int m;
