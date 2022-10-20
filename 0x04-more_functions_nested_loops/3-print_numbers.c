@@ -1,4 +1,6 @@
 #include "main.h"
+#include<stdlib.h>
+#include<time.h>
 
 /**
  * print_numbers - prints numbers from 0 to 9.
