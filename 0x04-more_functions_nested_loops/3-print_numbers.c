@@ -3,13 +3,14 @@
 #include<time.h>
 
 /**
- *_isupper - checks if parameter is an uppercase character.
- *@c: input character.
- *Return: 1 if is an uppercase character, 0 in other case.
+ *print_numbers - prints numbers from 0 to 9.
+ *Return: no return value
  */
 
 void print_numbers(void)
 {
+	int i;
+
 	for (i = 48; i <= 57; i++)
 	{
 	_putchar(i);
