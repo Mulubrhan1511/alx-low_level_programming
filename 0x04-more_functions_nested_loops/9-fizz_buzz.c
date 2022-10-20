@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>"
 
 /**
  *main - Fizz buzz.
@@ -8,9 +8,7 @@ int main(void)
 {
 	int m;
 
-	m = 1;
-	printf("%d", m);
-	for (m = 2; m <= 100; m++)
+	for (m = 1; m <= 100; m++)
 	{
 	if ((m % 3 == 0) && (m % 5 == 0))
 	{
