@@ -18,12 +18,15 @@ void rev_string(char *s)
 	}
 	}
 	l = s;
-	for (; m >= 0; m--)
+
+	for (n = 0; n < (m - 1); n++)
 	{
-	t = s[m];
-	*(l + n) = t;
-	n++;	
+		for (k = n + 1; k > 0; n--)
+		{
+			t = *(l + k);
+			*(l + k) = *(l + (k - 1));
+			*(l + (k - 1)) = t;
+		}
 	}
-	s = l;
 	
 }
