@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *_puts - prints a string, followed by a new line.
- *@str: input string.
+ *print_rev - prints a string, followed by a new line.
+ *@s: input string.
  *Return: no return.
  */
 void print_rev(char *s)
