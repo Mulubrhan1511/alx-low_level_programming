@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *reset_to_98 - takes a pointer to a parameter and updates its value.
+ *swap_int - takes a pointer to a parameter and updates its value.
  *@a: input integer.
  *@b: input integer.
  *Return: swap of a and b.
