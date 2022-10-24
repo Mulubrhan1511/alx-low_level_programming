@@ -1,5 +1,5 @@
 #include "main.h"
-#include "2-strlen.c"
+#include "_putchar.c"
 
 /**
  * _puts - prints a string, followed by a new line.
@@ -12,7 +12,7 @@ void _puts(char *str)
 	
 	for (m = 0; *(str + m) != '\0'; m++)
 	{
-	_putchar(*(str + i));
+	_putchar(*(str + m));
 	}
 	_putchar('\n');
 }
