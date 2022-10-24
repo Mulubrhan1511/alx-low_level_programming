@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  *_strlen - size of string.
@@ -11,7 +12,7 @@ void _puts(char *str)
 
 	for (m = 0; *(str + m) != '\0'; m++)
 	{
-	_putchar(str[m]);
+	puts(str[m]);
 	}
-	_putchar('\n');
+	puts('\n');
 }
