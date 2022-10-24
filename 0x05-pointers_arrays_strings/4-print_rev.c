@@ -1,5 +1,4 @@
 #include "main.h"
-#include "2-strlen.c"
 
 /**
  *_puts - prints a string, followed by a new line.
@@ -10,9 +9,16 @@ void print_rev(char *s)
 {
 	int m;
 
-	for (m = _strlen(s) - 1; m >= 0; m--)
+	for (m = 0; m >= 0; m++)
 	{
-	_putchar(*(s + m));
+	if (s[m] == '\0')
+	{
+	break;
+	}
+	}
+	for (m--; m >= 0; m--)
+	{
+	_putchar(s[m]);
 	}
 	_putchar('\n');
 }
