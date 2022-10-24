@@ -17,6 +17,7 @@ void rev_string(char *s)
 	break;
 	}
 	}
+	l = s;
 	for (m--; m >= 0; m--)
 	{
 	t = s[m];
