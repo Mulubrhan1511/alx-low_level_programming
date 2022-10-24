@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+#include "2-strlen.c"
 
 /**
  * _puts - prints a string, followed by a new line.
@@ -8,22 +8,11 @@
  */
 void _puts(char *str)
 {
-	int count = 0;
-
-	while (count >= 0)
+	int m = 0;
+	
+	for (m = 0; *(s + m) != '\0'; m++)
 	{
-<<<<<<< HEAD
-	puts(str[m]);
+	_putchar(*(str + i));
 	}
-	puts('\n');
-=======
-		if (str[count] == '\0')
-		{
-			_putchar('\n');
-			break;
-		}
-		_putchar(str[count]);
-		count++;
-	}
->>>>>>> 909e7e1ead3e2fae2c23fc76dadbed5cbbac229b
+	_putchar('\n');
 }
