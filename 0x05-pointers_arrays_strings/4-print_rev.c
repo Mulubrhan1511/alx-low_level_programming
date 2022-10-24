@@ -10,10 +10,10 @@ void print_rev(char *s)
 	int m;
 
 	m = sizeof(s);
+	_putchar('!');
 	for (; *(s + m) != '\0'; m--)
 	{
 		_putchar(*(s + m));
 	}
-	_putchar('!');
 	_putchar('\n');
 }
