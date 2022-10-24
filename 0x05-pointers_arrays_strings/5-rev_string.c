@@ -1,32 +1,30 @@
 #include "main.h"
 
 /**
- *print_rev - prints a string, followed by a new line.
- *@s: input string.
- *Return: no return.
+ * rev_string - reverses a string.
+ * @s: input string.
+ * Return: no return.
  */
 void rev_string(char *s)
 {
-	int m, n, k; 
-	char *l, t;
-	n = 0;
-	for (m = 0; m >= 0; m++)
-	{
-	if (s[m] == '\0')
-	{
-	break;
-	}
-	}
-	l = s;
+	int count = 0, i, j;
+	char *str, temp;
 
-	for (n = 0; n < (m - 1); n++)
+	while (count >= 0)
 	{
-		for (k = n + 1; k > 0; n--)
+		if (s[count] == '\0')
+			break;
+		count++;
+	}
+	str = s;
+
+	for (i = 0; i < (count - 1); i++)
+	{
+		for (j = i + 1; j > 0; j--)
 		{
-			t = *(l + k);
-			*(l + k) = *(l + (k - 1));
-			*(l + (k - 1)) = t;
+			temp = *(str + j);
+			*(str + j) = *(str + (j - 1));
+			*(str + (j - 1)) = temp;
 		}
 	}
-	
 }
