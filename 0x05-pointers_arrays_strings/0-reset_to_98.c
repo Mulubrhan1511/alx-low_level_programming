@@ -1,6 +1,8 @@
 #include "main.h"
+
 /**
- *reset_to_98 - check the code 
+ *reset_to_98 - check the code
+ *@n : pointer 
  *Return: Always 98.
  */
 
