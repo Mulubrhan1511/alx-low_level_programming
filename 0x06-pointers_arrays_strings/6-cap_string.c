@@ -15,22 +15,6 @@ char *cap_string(char *s)
 	count++;
 	while (*(s + count) != '\0')
 	{
-<<<<<<< HEAD
-	while (!(s[i] >= 'a' && s[i] <= 'z')
-	i++;
-	if (s[i -1] == ' ' || s[i -1] == '\t' || s[i -1] == '\n' || s[i -1] == ',' || s[i -1] == ';' ||
-	    s[i -1] == '.' ||
-	    s[i -1] == '!' ||
-	    s[i -1] == '?' ||
-	    s[i -1] == '"' ||
-	    s[i -1] == '(' ||
-	    s[i -1] == ')' ||
-	    s[i -1] == '{' ||
-	    s[i -1] == '}' ||
-	    i == 0)
-		s[i] -= 32;
-	i++;
-=======
 		for (i = 0; i < 13; i++)
 		{
 			if (*(s + count) == sep_words[i])
@@ -41,7 +25,6 @@ char *cap_string(char *s)
 			}
 		}
 		count++;
->>>>>>> 8b7fca6327add40cf678bdce990aff390caaa2f1
 	}
 	return (s);
 }
