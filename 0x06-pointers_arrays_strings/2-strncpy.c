@@ -4,6 +4,7 @@
  *_strcat - concatenates two strings,
  *@dest: destination.
  *@src: source.
+ *@n: amount of bytes used from src.
  *Return: the pointer to dest.
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -16,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 	for (; i < n; i++)
 	{
-	dest[j] = '\0';
+	dest[i] = '\0';
 	}
 	return (dest);
 }
