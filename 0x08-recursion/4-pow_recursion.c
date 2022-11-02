@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *
- *_pow_recursion - returns the power of number
+ *_pow_recursion - returns the value of x raised to the power of y.
  *@x: is the varable
  *@y: power 
  *Return: power of function.
@@ -14,5 +13,5 @@ int _pow_recursion(int x, int y)
 	else if (y == 0)
 		return (1);
 	else
-		return (x * _pow_recursion(x, y--));
+		return (x * _pow_recursion(x, y - 1));
 }
