@@ -1,13 +1,15 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
-
 /**
- *ch_free_grid - frees a 2 dimensional array.
- *@grid: multidimensional array of char.
- *@height: height of the array.
- *Return: no return
+ * helper - helps function
+ * @word: wordcount
+ * @len: length
+ * @str: string to go through
+ * @s: array you are assigning
+ * Return: char value
  */
-void ch_free_grid(char **grid, unsigned int height)
+char **helper(int word, int len, char *str, char **s)
 {
 	int i, k, j;
 
